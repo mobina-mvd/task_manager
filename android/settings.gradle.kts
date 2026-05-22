@@ -33,9 +33,17 @@ dependencyResolutionManagement {
         maven(url = "https://pub-azs.ir/api/mavens/")
         maven(url = "https://maven.aliyun.com/repository/google")
         maven(url = "https://maven.aliyun.com/repository/public")
+        maven(url = "https://maven.aliyun.com/repository/gradle-plugin")
+
+        maven(url = "https://maven.myket.ir")
+
+        maven(url = "https://jitpack.io")
+
 
         google()
         mavenCentral()
+        gradlePluginPortal()
+
     }
 }
 
